@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\AllDigitsUnique">
+      <UniqueIdentifier>{94533410-fd0a-4bf1-aec5-af728012318b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SortLetters">
+      <UniqueIdentifier>{bde5582f-69d2-400e-a44d-c2a4ff8795a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maze">
+      <UniqueIdentifier>{9420fb90-b4f8-4022-90d8-8745bc67e32c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Elevator">
+      <UniqueIdentifier>{401165bc-3d82-4824-8483-b108b6b2b795}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProgrammingTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllDigitsUnique\AllDigitsUnique.cpp">
+      <Filter>Source Files\AllDigitsUnique</Filter>
+    </ClCompile>
+    <ClCompile Include="SortLetters.cpp">
+      <Filter>Source Files\SortLetters</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze\Maze.cpp">
+      <Filter>Source Files\Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevator\ElevatorMotor.cpp">
+      <Filter>Source Files\Elevator</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevator\ElevatorController.cpp">
+      <Filter>Source Files\Elevator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AllDigitsUnique\AllDigitsUnique.h">
+      <Filter>Source Files\AllDigitsUnique</Filter>
+    </ClInclude>
+    <ClInclude Include="SortLetters.h">
+      <Filter>Source Files\SortLetters</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze\Maze.h">
+      <Filter>Source Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevator\ElevatorMotor.h">
+      <Filter>Source Files\Elevator</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevator\ElevatorControllerBase.h">
+      <Filter>Source Files\Elevator</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevator\ElevatorController.h">
+      <Filter>Source Files\Elevator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
